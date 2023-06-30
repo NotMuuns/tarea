@@ -4,4 +4,5 @@ export class Item{
     price: number;
     quantity: number;
     completed: boolean;
+    hola
 }   
