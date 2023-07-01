@@ -1,8 +1,8 @@
 export class Item{
-    id: number;
-    title: string;
-    price: number;
-    quantity: number;
-    completed: boolean;
-    hola
+    id: number = 0;
+    title: string = '';
+    price: number = 0;
+    quantity: number = 0;
+    completed: boolean = false;
+    
 }   
