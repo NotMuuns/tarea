@@ -20,16 +20,26 @@ export class ItemsComponent {
         id:0,
         title: 'air force 1',
         price: 15000,
-        quantity:1,
+        quantity:4,
         completed:false,
       },
       {
         id:1,
         title: 'vapormax',
         price: 19000,
-        quantity:1,
+        quantity:2,
         completed:true,
-      }
+      },
+      {
+        id:2,
+        title: 'jordan',
+        price: 23000,
+        quantity:1,
+        completed:false,
+      },
     ];
+  }
+  deleteItem(item: Item){
+    this.items=this.items.filter(x => x.id != item.id)
   }
 }

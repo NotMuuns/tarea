@@ -1,5 +1,6 @@
 <div>
-    <div *ngFor="let item of items">
-        {{item.title}}
-    </div>
+    <app-item *ngFor="let item of items" 
+    [item]="item" 
+    (deleteItem)="deleteItem($event)">
+    </app-item>
 </div>
