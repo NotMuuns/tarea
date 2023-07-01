@@ -7,7 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { ItemsComponent } from './components/items/items.component';
 
 import { ItemComponent } from './components/item/item.component';
-import { TotallComponent } from './component/totall/totall.component';
+import { TotalComponent } from './components/total/total.component';
+import { AdditemComponent } from './components/additem/additem.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TotallComponent } from './component/totall/totall.component';
     ItemsComponent,
    
     ItemComponent,
-         TotallComponent
+    TotalComponent,
+    AdditemComponent
   ],
   imports: [
     BrowserModule,
