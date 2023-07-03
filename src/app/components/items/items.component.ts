@@ -29,7 +29,7 @@ export class ItemsComponent {
         title: 'vapormax',
         price: 19000,
         quantity:2,
-        completed:true,
+        completed:false,
       },
       {
         id:2,
